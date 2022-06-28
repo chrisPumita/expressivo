@@ -1,0 +1,105 @@
+:root {
+    --primary: #10224f;
+    --primary_ligth: #0952be;
+    --secondary: #e92370;
+    --violet: #8942ce;
+    --orange: #f99410;
+    --text: #10224f;
+    --fondo : #ebf2f2;
+
+    --ligth: #ffffff;
+    --grey: #e1e4e8;
+    --greyligth: #EDEDED;
+    --alert: indianred;
+    --greybold: #505050;
+    --redmarck: #d50037;
+}
+*{
+    font-family: 'Cabin', sans-serif;
+}
+
+/*@over botstrap styles*/
+.bg-primary, .btn-primary{background-color: var(--primary) !important;}
+.bg-red{background-color: var(--redmarck) !important;}
+.bg-light{background-color: var(--ligth) !important;}
+.bg-mix{background: linear-gradient(180deg,var(--ligth)50%,var(--grey));}
+.bg-grey{background-color: var(--grey) !important;}
+.bg-greyligth{background-color: var(--greyligth) !important;}
+.bg-secondary{background-color: var(--secondary) !important;}
+
+.text-secondary{
+    color: var(--secondary) !important
+}
+.text-violet{
+    color: var(--violet) !important;
+}
+
+.text-blue-light{
+    color: var(--primary_ligth) !important
+}
+
+.btn-primary{
+    background-color: var(--primary);
+    background: linear-gradient(rgb(16, 34, 79) 95%, rgb(3,112,255) 99%);
+    color: var(--bs-white);
+    border-style: none;
+    border-radius: 0px;
+    font-size: 12px;
+}
+
+.btn-secondary{
+    background: linear-gradient(rgb(233,35,112) 0%, rgb(233,35,112) 99%);color: var(--bs-white) !important;
+    border-style: none !important;
+    border-radius: 0px !important;
+    font-size: 16px!important;
+}
+
+body{
+    background-color: var(--fondo);
+}
+
+
+/*MyStyles*/
+.menu{
+    background-color: var(--ligth) !important
+}
+
+.swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+.line-divisor{
+    margin: 0px !important;
+    height: 2px !important;
+}
+
+.float-card{
+    top: 16rem;
+    position: absolute;
+    margin-left: 21rem;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    border-radius: 1rem;
+    border: 3px solid var(--violet);
+    color: var(--violet);
+    width: 390px;
+}
+
+.card,.easy-card{
+    background-color: var(--fondo) !important;
+    border: 0px !important;
+}
+.easy-card{
+    border-radius: 1rem !important;
+}
+.card, .easy-card:hover{
+    border-radius: 22.3rem !important;
+}
+
+
+    input[type="text"], .send-email{
+        width:350px;
+    }

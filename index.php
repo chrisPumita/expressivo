@@ -1,73 +1,17 @@
+<!-- ----- VERSION DEL DOCUMENTO ---------
+    VERSION 1.00.0 BUILD 27.06.22
+    @autor: ReCkrea StuDios & limonne
+    @website: reckreastudios.com
+    @webdev: ChrisRCGS & BarbaraB.-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <!-- ----- VERSION DEL DOCUMENTO ---------
-        VERSION 1.00.0 BUILD 27.06.22
-        @autor: ReCkrea StuDios & limonne
-        @website: reckreastudios.com
-        @webdev: ChrisRCGS & BarbaraB.-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Bienvenidos - Expreesivo </title>
-    <meta http-equiv="twitter:description" content="">
-    <meta name="twitter:title" content="">
-    <meta property="og:image" content="assets/img/logo.svg">
-    <meta name="description" content="">
-    <meta property="og:type" content="website">
-    <meta name="twitter:image" content="assets/img/logo.svg">
-    <link rel="icon" type="image/png" sizes="1280x571" href="assets/img/logo.svg">
-    <link rel="icon" type="image/png" sizes="1280x571" href="assets/img/logo.svg">
-    <link rel="icon" type="image/png" sizes="1280x571" href="assets/img/logo.svg">
-    <link rel="icon" type="image/png" sizes="1280x571" href="assets/img/logo.svg">
-    <link rel="icon" type="image/png" sizes="1280x571" href="assets/img/logo.svg">
-    <link rel="stylesheet" href="assets/boostrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans&amp;display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700&amp;display=swap">
-    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css">
-
-    <link rel="stylesheet" href="assets/css/style.css">
+    <?php include_once "includes/header.php"?>
 </head>
 <body>
-    <section class="menu">
-        <div class="container-fluid">
-            <div class="container">
-                <nav class="navbar navbar-light navbar-expand-lg bg-white clean-navbar" style="z-index: 99;">
-                    <div class="container">
-                        <img src="assets/img/logo.svg" style="width: 250px;" alt="Logo COMSA" loading="lazy">
-                        <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-                        <div class="collapse navbar-collapse" id="navcol-1">
-                            <ul class="navbar-nav ms-5 aos-init aos-animate" data-bss-disabled-mobile="true" data-aos="fade">
-                                <li class="nav-item dropdown">
-                                    <a class="dropdown-toggle nav-link"  data-bss-hover-animate="pulse" aria-expanded="false" data-bs-toggle="dropdown" href="#">SERVICIOS</a>
-                                    <div class="dropdown-menu me-3">
-                                        <a class="dropdown-item mt-3 ps-3 pe-3" href="#" >SERVICIOS</a>
-                                        <a class="dropdown-item mt-3 ps-3 pe-3" href="#" >Alquiler de sala teatral</a>
-                                        <a class="dropdown-item mt-3 ps-3 pe-3" href="#" >Contenido artístico</a>
-                                        <a class="dropdown-item mt-3 ps-3 pe-3" href="#" >Sala VIP para reuniones</a>
-                                        <a class="dropdown-item mt-3 ps-3 pe-3" href="#" >Alimentación</a>
-                                    </div>
-                                </li>
-                                <li class="nav-item" ><a class="nav-link" data-bss-hover-animate="pulse" href="#" >PORTAFOLIO</a></li>
-                                <li class="nav-item" data-bss-hover-animate="pulse"><a class="nav-link" href="#" >MAPA</a></li>
-                            </ul>
-                            <span class="navbar-text w-100 d-flex justify-content-sm-start justify-content-md-end">
-                                <div class="border-start ps-md-5 ps-3">
-                                    <button class="btn btn-primary btn-lg" data-bss-hover-animate="pulse" type="submit">COTICE SU EVENTO</button>
-                                </div>
-                              </span>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-        </div>
-    </section>
+
+<?php include_once "includes/nav.php"?>
     <main class="page landing-page">
         <section>
             <div class="container-fluid" style="padding: 0;margin: 0;">
@@ -83,7 +27,7 @@
                                     <div class="swiper-slide"
                                          style="background:  url(assets/img/banner1.jpg) top / cover no-repeat;">
                                         <!-- Start: Highlight Clean -->
-                                        <div class="text-center d-lg-flex justify-content-lg-center align-items-lg-center highlight-clean"
+                                        <div class="text-center d-flex justify-content-center align-items-center highlight-clean"
                                              data-aos="fade"
                                              style="border-style: none;background: rgba(0,0,0,0.1);height: 100%;">
                                             <div>
@@ -109,10 +53,12 @@
                                             <div>
                                                 <!-- Start: Intro -->
                                                 <div class="intro">
-                                                    <h1 class="text-center text-light" style="font-weight: bold;">
-                                                        Cuidamos lo que usted produce</h1>
-                                                    <p class="text-center text-light" style="font-size: 1em;">Soluciones
-                                                        integrales en Nutrición Pecuaria</p>
+                                                    <h1 class="text-center text-light mb-3" style="font-weight: bold;">
+                                                        Realice eventos <br>
+                                                        y espectáculos <br>
+                                                        <span class="text-secondary">memorables.</span></h1>
+                                                    <button class="btn btn-secondary btn-lg" data-bss-hover-animate="pulse" type="submit"
+                                                            style="">COTICE SU EVENTO</button>
                                                 </div><!-- End: Intro -->
                                             </div>
                                         </div><!-- End: Highlight Clean -->
@@ -127,10 +73,12 @@
                                             <div>
                                                 <!-- Start: Intro -->
                                                 <div class="intro">
-                                                    <h1 class="text-center text-light" style="font-weight: bold;">
-                                                        Cuidamos lo que usted produce</h1>
-                                                    <p class="text-center text-light" style="font-size: 1em;">Soluciones
-                                                        integrales en Nutrición Pecuaria</p>
+                                                    <h1 class="text-center text-light mb-3" style="font-weight: bold;">
+                                                        Realice eventos <br>
+                                                        y espectáculos <br>
+                                                        <span class="text-secondary">memorables.</span></h1>
+                                                    <button class="btn btn-secondary btn-lg" data-bss-hover-animate="pulse" type="submit"
+                                                            style="">COTICE SU EVENTO</button>
                                                 </div><!-- End: Intro -->
                                             </div>
                                         </div><!-- End: Highlight Clean -->
@@ -170,8 +118,8 @@
                     </div>
                 </div>
                 <div class="row text-center">
-                    <div class="col-1 col-sm-3"></div>
-                    <div class="col-auto col-sm-6">
+                    <div class="col-1 col-sm-1 col-md-1 col-lg-3 col-xl-3 col-xxl-3"></div>
+                    <div class="col-10 col-sm-10 col-md-10 col-lg-6 col-xl-6 col-xxl-6">
                         <h5>EVENTOS IMPECABLES</h5>
                         <p class="mt-3 pe-5 ps-5">
                             Con más de <strong>20 años de experiencia en producción escénica y de eventos</strong>, en
@@ -180,7 +128,7 @@
                             desarrollar eventos impecables con un toque característico de arte y creatividad.
                         </p>
                     </div>
-                    <div class="col-1 col-sm-3"></div>
+                    <div class="col-1 col-sm-1 col-md-1 col-lg-3 col-xl-3 col-xxl-3"></div>
                 </div>
             </div>
         </section>
@@ -191,8 +139,8 @@
                 <!-- Start: 1 Row 1 Column -->
                 <div class="container">
                     <div class="row text-center text-light">
-                        <div class="col-1 col-sm-3"></div>
-                        <div class="col-auto col-sm-6">
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-3 col-xl-3 col-xxl-3"></div>
+                        <div class="col-10 col-sm-10 col-md-10 col-lg-6 col-xl-6 col-xxl-6">
                             <h5>TIPOS DE EVENTOS</h5>
                             <p class="mt-3 pe-5 ps-5">
                                 Ofrecemos asesoría personalizada, un espacio amplio completamente equipado y
@@ -240,7 +188,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-1 col-sm-3"></div>
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-3 col-xl-3 col-xxl-3"></div>
                     </div>
                 </div><!-- End: 1 Row 1 Column -->
             </div><!-- End: Parallax Background -->
@@ -248,11 +196,11 @@
         <section>
             <div class="container">
                 <div class="row align-items-center mt-5 mb-5">
-                    <div class="col-md-6 position-relative d-flex justify-content-center">
+                    <div class="col-md-6 position-relative d-flex justify-content-center imagine">
                         <img class="mt-5" src="assets/img/our-service.jpg" style="border-radius: 2rem;">
-                        <div class="float-card">
+                        <div class="float-card text-violet">
                             <div class="text-center pb-1 pe-4 ps-4">
-                                <h3 class="text-violet text-start pt-3">Usted imagine,<br>
+                                <h3 class=" text-start pt-3">Usted imagine,<br>
                                     nosotros lo hacemos <br>
                                     <strong> realidad</strong>.</h3>
                             </div>
@@ -265,8 +213,7 @@
                                     <h6><strong>CONTENIDO PERSONALIZADO</strong></h6>
                                 </div>
                                 <div class="row">
-                                    <h1 class="text-secondary">Nuestro arte
-                                        y creatividad
+                                    <h1 class="text-secondary">Nuestro arte y creatividad
                                         <span class="text-violet">a su servicio </span></h1>
                                 </div>
                                 <div class="row">
@@ -291,13 +238,13 @@
         <section class="container mt-5">
             <div class="container pt-5">
                 <div class="row text-center mt-5">
-                    <div class="col-1 col-sm-3"></div>
-                    <div class="col-auto col-sm-6">
+                    <div class="col-2 col-sm-1 col-md-1 col-lg-3 col-xl-3 col-xxl-3"></div>
+                    <div class="col-8 col-sm-10 col-md-10 col-lg-6 col-xl-6 col-xxl-6">
                         <h2 class="text-secondary"><strong>Facilidades para usted</strong></h2>
                         <h6>CONFIANDO EN ESPRESSIVO EVENTS</h6>
                         <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
                             <div class="col">
-                                <div class="card text-white">
+                                <div class="card text-white facilidad">
                                   <img src="./assets/img/bg-blue.svg" class="card-img easy-card" alt="...">
                                   <div class="card-img-overlay d-flex text-center justify-content-center align-items-center">
                                       <p class="text-light fs-5 lh-sm">
@@ -309,7 +256,7 @@
                                 </div>
                             </div>
                             <div class="col">
-                                <div class="card text-white">
+                                <div class="card text-white facilidad">
                                     <img src="./assets/img/bg-pink.svg" class="card-img easy-card" alt="...">
                                     <div class="card-img-overlay d-flex text-center justify-content-center align-items-center">
                                         <h6 class="text-light fs-5 lh-sm">
@@ -319,7 +266,7 @@
                                 </div>
                             </div>
                             <div class="col">
-                                <div class="card text-white">
+                                <div class="card text-white facilidad">
                                     <img src="./assets/img/bg-blue.svg" class="card-img easy-card" alt="...">
                                     <div class="card-img-overlay d-flex text-center justify-content-center align-items-center">
                                         <div>
@@ -332,7 +279,7 @@
                                 </div>
                             </div>
                             <div class="col">
-                                <div class="card text-white">
+                                <div class="card text-white facilidad">
                                     <img src="./assets/img/bg-pink.svg" class="card-img easy-card" alt="...">
                                     <div class="card-img-overlay d-flex text-center justify-content-center align-items-center">
                                         <div>
@@ -345,7 +292,7 @@
                                 </div>
                             </div>
                             <div class="col">
-                                <div class="card text-white">
+                                <div class="card text-white facilidad">
                                     <img src="./assets/img/bg-violet.svg" class="card-img easy-card" alt="...">
                                     <div class="card-img-overlay d-flex text-center justify-content-center align-items-center">
                                         <p class="text-light fs-5 lh-sm">
@@ -356,7 +303,7 @@
                                 </div>
                             </div>
                             <div class="col">
-                                <div class="card text-white">
+                                <div class="card text-white facilidad">
                                     <img src="./assets/img/bg-orange.svg" class="card-img easy-card" alt="...">
                                     <div class="card-img-overlay d-flex text-center justify-content-center align-items-center">
                                         <h6 class="text-light fs-5 lh-sm">
@@ -377,96 +324,13 @@
                             <a href="#" class=" text-danger">Descarga el documento con todas las ventajas técnicas</a>
                         </div>
                     </div>
-                    <div class="col-1 col-sm-3"></div>
+                    <div class="col-2 col-sm-1 col-md-1 col-lg-3 col-xl-3 col-xxl-3"></div>
                 </div>
             </div>
         </section>
-        <section class="mt-5">
-            <div class="d-xl-flex d-xxl-flex align-items-xl-center justify-content-xxl-center align-items-xxl-center"
-                 data-bss-parallax-bg="true"
-                 style="height: 300px;background: url(./assets/img/parallax-home2.jpg) center / cover;">
-                <div class="d-flex d-xxl-flex justify-content-center align-items-center justify-content-xxl-center align-items-xxl-center"
-                     style="width: 100%;height: 100%;background: rgba(0,0,0,0.5);">
-                    <!-- Start: 1 Row 1 Column -->
-                    <div class="container">
-                        <div class="row text-light text-center">
-                            <div class="col-1 col-sm-3"></div>
-                            <div class="col-auto col-sm-6 ">
-                                <h1 class="">Siga de cerca <br> nuestros lanzamientos</h1>
-                                <h6>OFERTAS ESPECIALES, PRODUCTOS NUEVOS Y OBRAS TEATRALES</h6>
-                            </div>
-                            <div class="col-1 col-sm-3"></div>
-                        </div>
-                        <div class="row mt-3">
-                            <div class="col d-flex align-content-center justify-content-center">
-                                <div class="input-group mb-3 send-email">
-                                    <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="button-addon2">
-                                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Registrarse</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- End: 1 Row 1 Column -->
-                </div>
-            </div><!-- End: Parallax Background -->
-        </section>
-    </main>
-    <footer class="page-footer bg-grey">
-        <div class="container">
-            <div class="row" style="padding-top: 2em;padding-bottom: 2em;">
-                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-4">
-                    <h5>ESPRESSIVO</h5>
-                    <p>
-                        El mejor lugar para vivir el arte
-                        en Costa Ricadonde también
-                        podrá degustar la mejor gastronomía
-                        y realizar eventos en el
-                        este de San José.
-                    </p>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-4">
-                    <h5>ENLACES</h5>
-                    <div class="row">
-                        <div class="col-6">
-                            <ul class="list-unstyled">
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">Asesorias técnicas</a></li>
-                                <li><a href="#">Contenido artístico</a></li>
-                                <li><a href="#">Sala VIP reuniones</a></li>
-                                <li><a href="#">Alimentación</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-6">
-                            <ul class="list-unstyled">
-                                <li><a href="#">Portafolio</a></li>
-                                <li><a href="#">Mapa</a></li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">Contacto</a></li>
-                                <li><a href="#">Aviso de privacidad</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-4">
-                    <h5>CONTACTO</h5>
-                    <div class="row">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <p>Momentum pinares,
-                            Teatro espressivo</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-copyright btn-primary" style="padding: 0;margin: 0;">
-            <p>© 2022 expressivo Derechos Reservados</p>
-        </div>
-    </footer><!-- End: Footer Dark -->
-</body>
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/boostrap/js/bootstrap.min.js"></script>
-<script src="assets/js/script.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.js"></script>
 
+    </main>
+<?php include_once "includes/footer.php"?>
+</body>
+<?php include_once "includes/js.php"?>
 </html>

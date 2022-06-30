@@ -12,8 +12,8 @@
                                 <div class="dropdown-menu me-3">
                                     <a class="dropdown-item mt-3 ps-3 pe-3" href="#" >SERVICIOS</a>
                                     <a class="dropdown-item mt-3 ps-3 pe-3" href="./alquiler.php" >Alquiler de sala teatral</a>
-                                    <a class="dropdown-item mt-3 ps-3 pe-3" href="#" >Contenido artístico</a>
-                                    <a class="dropdown-item mt-3 ps-3 pe-3" href="#" >Sala VIP para reuniones</a>
+                                    <a class="dropdown-item mt-3 ps-3 pe-3" href="./contenido-artistico.php" >Contenido artístico</a>
+                                    <a class="dropdown-item mt-3 ps-3 pe-3" href="./sala-vip.php" >Sala VIP para reuniones</a>
                                     <a class="dropdown-item mt-3 ps-3 pe-3" href="#" >Alimentación</a>
                                 </div>
                             </li>

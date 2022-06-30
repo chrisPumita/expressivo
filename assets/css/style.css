@@ -83,6 +83,11 @@ body{
     background-color: var(--fondo);
 }
 
+hr{
+    text-align: center;
+    width: 70%;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0),rgba(255, 255, 255, 0.75));
+}
 
 /*MyStyles*/
 .menu{
@@ -145,6 +150,14 @@ body{
         background-color: var(--ligth);
         top: 300px !important;
     }
+
+    .quote-text {
+        margin-left: 0rem !important;
+        text-align: center !important;
+    }
+    .autor {
+        margin-left: 0rem !important;
+    }
 }
 
 
@@ -198,4 +211,90 @@ input[type="text"], .send-email{
 
 .tipo-benn  img{
     width:150px;
+}
+
+.up-wabe{
+
+}
+
+.up-wabe-2{
+    margin-top: -60vh !important;
+}
+
+.vip-specific{
+    border-radius: 1rem;
+}
+
+.computers{
+    top: 0rem;
+    left: -10rem;
+}
+
+.grafico{
+    padding: 1px 1px 1px 1px;
+    padding-top: 280px;
+    height: 400px;
+    text-align: center;
+}
+
+blockquote {
+    border-left:none
+}
+
+.quote-badge {
+    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.quote-box {
+    overflow: hidden;
+    padding-top: 25px;
+    border-radius: 17px;
+    color: white;
+}
+
+.quotation-mark {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 15rem;
+    color: var(--secondary);
+    font-family: "Times New Roman", Times, Serif;
+    position: absolute;
+}
+
+.quote-text {
+    font-size: 30px;
+    margin-top: 12rem;
+    margin-left: 6rem;
+}
+
+.cite-divisor{
+    width: 150px !important;
+    background: var(--secondary);
+    opacity: 1;
+    height:3px !important;
+}
+
+.autor{
+    font-size: 15px;
+    margin-left: 6rem;
+}
+
+.g1{
+    background: #002892;
+    background: linear-gradient(0deg, rgba(0,40,146,100) 0%, rgba(0,40,146,100) 63%, rgba(255,255,255,1) 63%, rgba(255,255,255,1) 100%);
+}
+.g2{
+    background: #E48010;
+    background: linear-gradient(0deg, rgba(228,128,16,100) 0%, rgba(228,128,16,100) 100%, rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%);
+}
+
+.g3{
+    background: #0051AB;
+    background: linear-gradient(0deg, rgba(0,81,171,100) 0%, rgba(0,81,171,100) 61%, rgba(255,255,255,1) 61%, rgba(255,255,255,1) 100%);
+}
+
+.g4{
+    background: #8042B9;
+    background: linear-gradient(0deg, rgba(128,66,185,100) 0%, rgba(128,66,185,100) 38%, rgba(255,255,255,1) 38%, rgba(255,255,255,1) 100%);
 }

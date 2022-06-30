@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Bienvenidos - Expreesivo </title>
+    <title>Bienvenidos - Espressivo </title>
     <?php include_once "includes/header.php"?>
 </head>
 <body>
@@ -50,7 +50,7 @@
                         <div class="row g-0 tipos-card text-light" style="contain: content;">
                             <div class="media-line position-absolute top-50 start-50 translate-middle"></div>
                             <div class="col-md-6 tipos-card-img" style="
-                                    background: url(./assets/img/card-tipo2.jpg) bottom / cover no-repeat, rgb(98,112,119);padding: 0;margin: 0;">
+                                    background: url(./assets/img/card-tipo1.jpg) bottom / cover no-repeat, rgb(98,112,119);padding: 0;margin: 0;">
                             </div>
                             <div class="col-md-6 bg-blue">
                                 <div class="card-body p-5">
@@ -92,7 +92,7 @@
                         <div class="row g-0 tipos-card text-light" style="contain: content;">
                             <div class="media-line position-absolute top-50 start-50 translate-middle"></div>
                             <div class="col-md-6 tipos-card-img" style="
-                                    background: url(./assets/img/card-tipo2.jpg) bottom / cover no-repeat, rgb(98,112,119);padding: 0;margin: 0;">
+                                    background: url(./assets/img/cart-tipo3.jpg) bottom / cover no-repeat, rgb(98,112,119);padding: 0;margin: 0;">
                             </div>
                             <div class="col-md-6 bg-secondary">
                                 <div class="card-body p-5">

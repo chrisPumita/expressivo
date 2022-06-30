@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Bienvenidos - Expreesivo </title>
+    <title>Bienvenidos - Espressivo </title>
     <?php include_once "includes/header.php"?>
 </head>
 <body>
@@ -101,12 +101,12 @@
         <section>
             <div class="container">
                 <div class="row">
-                    <div class="col d-flex align-content-center justify-content-center">
+                    <div class="col py-3 d-flex align-content-center justify-content-center">
                         <img class="w-50" src="./assets/img/logos_grey.svg" width="50%" alt="Logos eventos">
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col">
+                    <div class="col d-flex justify-content-center align-items-center">
                         <hr class="line-divisor">
                     </div>
                 </div>

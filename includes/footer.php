@@ -93,6 +93,6 @@
         </div>
     </div>
     <div class="footer-copyright btn-primary" style="padding: 0;margin: 0;">
-        <p>© 2022 expressivo Derechos Reservados</p>
+        <p>© 2022 espressivo Derechos Reservados</p>
     </div>
 </footer><!-- End: Footer -->

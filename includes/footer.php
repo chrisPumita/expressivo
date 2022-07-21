@@ -1,3 +1,4 @@
+<?php include "terms-modal.php"?>
 <section class="mt-5">
     <div class="d-xl-flex d-xxl-flex align-items-xl-center justify-content-xxl-center align-items-xxl-center"
          data-bss-parallax-bg="true"
@@ -18,7 +19,7 @@
                     <div class="col d-flex align-content-center justify-content-center">
                         <div class="input-group mb-3 send-email">
                             <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="button-addon2">
-                            <button class="btn btn-outline-secondary" type="button" id="button-addon2">Registrarse</button>
+                            <button class="btn  gb-green" type="button" id="button-addon2">Registrarse</button>
                         </div>
                     </div>
                 </div>
@@ -28,9 +29,9 @@
 </section>
 <footer class="page-footer bg-grey">
     <div class="container">
-        <div class="row" style="padding-top: 2em;padding-bottom: 2em;">
+        <div class="row text-gray" style="padding-top: 2em;padding-bottom: 2em;">
             <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 col-xxl-3">
-                <h5>ESPRESSIVO</h5>
+                <h5 class="text-green">ESPRESSIVO</h5>
                 <p>
                     El mejor lugar para vivir el arte
                     en Costa Ricadonde también
@@ -40,14 +41,14 @@
                 </p>
             </div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 ps-5">
-                <h5>ENLACES</h5>
+                <h5 class="text-green">ENLACES</h5>
                 <div class="row">
                     <div class="col-5">
                         <ul class="list-unstyled">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Asesorias técnicas</a></li>
-                            <li><a href="#">Contenido artístico</a></li>
-                            <li><a href="#">Sala VIP reuniones</a></li>
+                            <li><a href="./">Home</a></li>
+                            <li><a href="./alquiler.php">Asesorias técnicas</a></li>
+                            <li><a href="./contenido-artistico.php">Contenido artístico</a></li>
+                            <li><a href="./sala-vip.php">Sala VIP reuniones</a></li>
                             <li><a href="#">Alimentación</a></li>
                         </ul>
                     </div>
@@ -57,14 +58,15 @@
                             <li><a href="#">Portafolio</a></li>
                             <li><a href="#">Mapa</a></li>
                             <li><a href="#">Blog</a></li>
-                            <li><a href="#">Contacto</a></li>
-                            <li><a href="#">Aviso de privacidad</a></li>
+                            <li><a href="./contacto.php">Contacto</a></li>
+                            <li><a href="#" data-bs-toggle="modal" data-bs-target="#modal-terms">Aviso de privacidad</a></li>
+                            <li><a href="#" data-bs-toggle="modal" data-bs-target="#modal-terms-2">Términos y Condiciones</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 col-xxl-3 text-start ps-3">
-                <h5>CONTACTO</h5>
+                <h5 class="text-green">CONTACTO</h5>
                 <div class="row">
                     <div class="col-1">
                         <h6><i class="fas fa-map-marker-alt me-3"></i></h6>

@@ -8,6 +8,7 @@
 <head>
     <title>Bienvenidos - Espressivo </title>
     <?php include_once "includes/header.php"?>
+
 </head>
 <body>
 
@@ -37,8 +38,7 @@
                                                         Realice eventos <br>
                                                         y espectáculos <br>
                                                         <span class="text-secondary">memorables.</span></h1>
-                                                    <button class="btn btn-secondary btn-lg" data-bss-hover-animate="pulse" type="submit"
-                                                            style="">COTICE SU EVENTO</button>
+                                                    <button class="btn btn-secondary btn-lg fs-6 fw-bold" data-bss-hover-animate="pulse" type="submit">COTICE SU EVENTO</button>
                                                 </div><!-- End: Intro -->
                                             </div>
                                         </div><!-- End: Highlight Clean -->
@@ -47,7 +47,7 @@
                                     <div class="swiper-slide"
                                          style="background:  url(assets/img/banner2.jpg) center / cover no-repeat;">
                                         <!-- Start: Highlight Clean -->
-                                        <div class="text-center d-lg-flex justify-content-lg-center align-items-lg-center highlight-clean"
+                                        <div class="text-center d-flex justify-content-center align-items-center highlight-clean"
                                              data-aos="fade"
                                              style="border-style: none;background: rgba(0,0,0,0.1);height: 100%;">
                                             <div>
@@ -67,7 +67,7 @@
                                     <div class="swiper-slide"
                                          style="background:  url(assets/img/banner1.jpg) center / cover no-repeat;">
                                         <!-- Start: Highlight Clean -->
-                                        <div class="text-center d-lg-flex justify-content-lg-center align-items-lg-center highlight-clean"
+                                        <div class="text-center d-flex justify-content-center align-items-center highlight-clean"
                                              data-aos="fade"
                                              style="border-style: none;background: rgba(0,0,0,0.1);height: 100%;">
                                             <div>
@@ -100,10 +100,12 @@
         </section>
         <section>
             <div class="container">
-                <div class="row">
-                    <div class="col py-3 d-flex align-content-center justify-content-center">
-                        <img class="w-50" src="./assets/img/logos_grey.svg" width="50%" alt="Logos eventos">
+                <div class="row text-center">
+                    <div class="col-0 col-sm-1 col-md-1 col-lg-3 col-xl-3 col-xxl-3"></div>
+                    <div class="col-12 col-sm-10 col-md-10 col-lg-6 col-xl-6 col-xxl-6 text-gray my-5">
+                        <img class="w-100" src="./assets/img/logos_grey.svg" alt="Logos eventos">
                     </div>
+                    <div class="col-0 col-sm-1 col-md-1 col-lg-3 col-xl-3 col-xxl-3"></div>
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-center align-items-center">
@@ -114,21 +116,28 @@
             <div class="container py-5">
                 <div class="row">
                     <div class="col d-flex align-content-center justify-content-center">
-                        <img class="w-50" src="./assets/img/logo-espressivo-evnts.svg" alt="Logos eventos">
+
                     </div>
                 </div>
                 <div class="row text-center">
-                    <div class="col-1 col-sm-1 col-md-1 col-lg-3 col-xl-3 col-xxl-3"></div>
-                    <div class="col-10 col-sm-10 col-md-10 col-lg-6 col-xl-6 col-xxl-6">
-                        <h5>EVENTOS IMPECABLES</h5>
-                        <p class="mt-3 pe-5 ps-5">
+                    <div class="col-0 col-sm-1 col-md-1 col-lg-3 col-xl-3 col-xxl-3"></div>
+                    <div class="col-12 col-sm-10 col-md-10 col-lg-6 col-xl-6 col-xxl-6 text-gray">
+                        <img class="w-100" src="./assets/img/logo.svg" alt="Logos eventos">
+                    </div>
+                    <div class="col-0 col-sm-1 col-md-1 col-lg-3 col-xl-3 col-xxl-3"></div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-0 col-sm-1 col-md-1 col-lg-3 col-xl-3 col-xxl-3"></div>
+                    <div class="col-12 col-sm-10 col-md-10 col-lg-6 col-xl-6 col-xxl-6 text-gray">
+                        <h5 class="lh-sm">EVENTOS IMPECABLES</h5>
+                        <p class="mt-3 px-1 px-sm-2 lh-sm">
                             Con más de <strong>20 años de experiencia en producción escénica y de eventos</strong>, en
                             Teatro Espressivo le presentamos: <strong class="text-secondary">Espressivo Events</strong>. La solución todo en uno para
                             sus eventos corporativos, educativos o artísticos. Usamos nuestra expeticia para
                             desarrollar eventos impecables con un toque característico de arte y creatividad.
                         </p>
                     </div>
-                    <div class="col-1 col-sm-1 col-md-1 col-lg-3 col-xl-3 col-xxl-3"></div>
+                    <div class="col-0 col-sm-1 col-md-1 col-lg-3 col-xl-3 col-xxl-3"></div>
                 </div>
             </div>
         </section>
@@ -139,22 +148,22 @@
                 <!-- Start: 1 Row 1 Column -->
                 <div class="container">
                     <div class="row text-center text-light">
-                        <div class="col-1 col-sm-1 col-md-1 col-lg-3 col-xl-3 col-xxl-3"></div>
-                        <div class="col-10 col-sm-10 col-md-10 col-lg-6 col-xl-6 col-xxl-6">
-                            <h5>TIPOS DE EVENTOS</h5>
-                            <p class="mt-3 pe-5 ps-5">
+                        <div class="col-0 col-sm-1 col-md-1 col-lg-3 col-xl-3 col-xxl-3"></div>
+                        <div class="col-12 col-sm-10 col-md-10 col-lg-6 col-xl-6 col-xxl-6">
+                            <h5 class="fw-bold lh-base">TIPOS DE EVENTOS</h5>
+                            <p class="mt-3 px-1 lh-sm">
                                 Ofrecemos asesoría personalizada, un espacio amplio completamente equipado y
                                 personal altamente capacitado para realizar actividades y eventos espectaculares de
                                 forma presencial, híbrida o completamente digital. Usted decide.
                             </p>
-                            <a href="#" class=" text-danger">Conozca más </a>
+                            <a href="#" class=" text-light text-decoration-underline">Conozca más » </a>
                             <div class="row">
                                 <div class="row row-cols-1 row-cols-md-3 g-4">
                                     <div class="col">
                                         <div class="row position-relative">
                                             <div class="position-absolute bottom-0">
                                                 <div class="text-center pb-2 pe-4 ps-4">
-                                                    <h5 class="text-light text-center">Eventos digitales</h5>
+                                                    <h5 class="text-light text-center events-example">Eventos digitales</h5>
                                                 </div>
                                             </div>
                                             <img src="./assets/img/card1.svg" class="card-img-top" alt="...">
@@ -164,7 +173,7 @@
                                         <div class="row position-relative">
                                             <div class="position-absolute bottom-0">
                                                 <div class="text-center pb-2 pe-4 ps-4">
-                                                    <h5 class="text-light text-center">Eventos digitales</h5>
+                                                    <h5 class="text-light text-center  events-example">Eventos digitales</h5>
                                                 </div>
                                             </div>
                                             <img src="./assets/img/card2.svg" class="card-img-top" alt="...">
@@ -174,7 +183,7 @@
                                         <div class="row position-relative">
                                             <div class="position-absolute bottom-0">
                                                 <div class="text-center pb-2 pe-4 ps-4">
-                                                    <h5 class="text-light text-center">Eventos digitales</h5>
+                                                    <h5 class="text-light text-center  events-example">Eventos digitales</h5>
                                                 </div>
                                             </div>
                                             <img src="./assets/img/card3.svg" class="card-img-top" alt="...">
@@ -188,7 +197,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-1 col-sm-1 col-md-1 col-lg-3 col-xl-3 col-xxl-3"></div>
+                        <div class="col-0 col-sm-1 col-md-1 col-lg-3 col-xl-3 col-xxl-3"></div>
                     </div>
                 </div><!-- End: 1 Row 1 Column -->
             </div><!-- End: Parallax Background -->
@@ -197,7 +206,7 @@
             <div class="container">
                 <div class="row align-items-center mt-5 mb-5">
                     <div class="col-md-6 position-relative d-flex justify-content-center imagine">
-                        <img class="mt-5" src="assets/img/our-service.jpg" style="border-radius: 2rem;">
+                        <img class="mt-5 you-imagine" src="assets/img/our-service.jpg" style="border-radius: 2rem;">
                         <div class="float-card text-violet">
                             <div class="text-center pb-1 pe-4 ps-4">
                                 <h3 class=" text-start pt-3">Usted imagine,<br>
@@ -207,13 +216,14 @@
                         </div>
                     </div>
                     <div class="col-md-6 align-self-end order-2">
-                        <div style="background:var(--grey);padding: 2em;margin-top: 2rem; border-radius: 2rem">
-                            <div class="row d-block p-5">
+                        <div class="bg-grey"
+                             style="background:var(--grey);padding: 2em;margin-top: 2rem; border-radius: 2rem; max-width: 30rem;">
+                            <div class="row d-block p-1 p-sm-3 p-xl-5 text-gray">
                                 <div class="row text-center">
-                                    <h6><strong>CONTENIDO PERSONALIZADO</strong></h6>
+                                    <h6 class="fw-bold">CONTENIDO PERSONALIZADO</h6>
                                 </div>
                                 <div class="row">
-                                    <h1 class="text-secondary">Nuestro arte y creatividad
+                                    <h1 class="text-secondary fw-bold">Nuestro arte y creatividad
                                         <span class="text-violet">a su servicio </span></h1>
                                 </div>
                                 <div class="row">
@@ -226,7 +236,7 @@
                                         o institucionales para que su evento
                                         sea una <strong>experiencia inigualable</strong> .
                                     </p>
-                                    <a href="#" class=" text-violet">Conozca más </a>
+                                    <a href="#" class=" text-violet">Conozca más »</a>
                                 </div>
                             </div>
                         </div>
@@ -238,11 +248,11 @@
         <section class="container mt-5">
             <div class="container pt-5">
                 <div class="row text-center mt-5">
-                    <div class="col-2 col-sm-1 col-md-1 col-lg-3 col-xl-3 col-xxl-3"></div>
-                    <div class="col-8 col-sm-10 col-md-10 col-lg-6 col-xl-6 col-xxl-6">
+                    <div class="col-0 col-sm-1 col-md-1 col-lg-3 col-xl-3 col-xxl-3"></div>
+                    <div class="col-12 col-sm-10 col-md-10 col-lg-6 col-xl-6 col-xxl-6 text-gray">
                         <h2 class="text-secondary"><strong>Facilidades para usted</strong></h2>
                         <h6>CONFIANDO EN ESPRESSIVO EVENTS</h6>
-                        <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+                        <div class="row row-cols-2 row-cols-md-3 g-4 mt-3">
                             <div class="col">
                                 <div class="card text-white facilidad">
                                   <img src="./assets/img/bg-blue.svg" class="card-img easy-card" alt="...">
@@ -321,10 +331,10 @@
                             </div>
                         </div>
                         <div class="row mt-5">
-                            <a href="#" class=" text-danger">Descarga el documento con todas las ventajas técnicas</a>
+                            <a href="#" class=" text-secondary small">Descarga el documento con todas las ventajas técnicas</a>
                         </div>
                     </div>
-                    <div class="col-2 col-sm-1 col-md-1 col-lg-3 col-xl-3 col-xxl-3"></div>
+                    <div class="col-0 col-sm-1 col-md-1 col-lg-3 col-xl-3 col-xxl-3"></div>
                 </div>
             </div>
         </section>

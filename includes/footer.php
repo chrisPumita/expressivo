@@ -49,15 +49,12 @@
                             <li><a href="./alquiler.php">Asesorias técnicas</a></li>
                             <li><a href="./contenido-artistico.php">Contenido artístico</a></li>
                             <li><a href="./sala-vip.php">Sala VIP reuniones</a></li>
-                            <li><a href="#">Alimentación</a></li>
                         </ul>
                     </div>
                     <div class="col border-start border-dark border-2"></div>
                     <div class="col-5">
                         <ul class="list-unstyled">
-                            <li><a href="#">Portafolio</a></li>
-                            <li><a href="#">Mapa</a></li>
-                            <li><a href="#">Blog</a></li>
+                            <li><a href="./alquiler.php">Portafolio</a></li>
                             <li><a href="./contacto.php">Contacto</a></li>
                             <li><a href="#" data-bs-toggle="modal" data-bs-target="#modal-terms">Aviso de privacidad</a></li>
                             <li><a href="#" data-bs-toggle="modal" data-bs-target="#modal-terms-2">Términos y Condiciones</a></li>
@@ -67,15 +64,15 @@
             </div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 col-xxl-3 text-start ps-3">
                 <h5 class="text-green">CONTACTO</h5>
-                <div class="row">
+                <div class="row d-flex flex-nowrap align-items-start">
                     <div class="col-1">
-                        <h6><i class="fas fa-map-marker-alt me-3"></i></h6>
+                        <i class="fas fa-map-marker-alt me-3"></i>
                     </div>
                     <div class="col-11">
-                        <p class="ms-2">Momentum pinares, Teatro espressivo</p>
+                        <p class="ms-2"><a href="https://goo.gl/maps/PpEHv2Zx1scJK2HG9" target="_blank">Momentum pinares, Teatro espressivo</a></p>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row d-flex flex-nowrap align-items-start">
                     <div class="col-1">
                         <h6><i class="fas fa-phone-alt"></i></h6>
                     </div>
@@ -83,7 +80,7 @@
                         <p class="ms-2">(+506) 6360 9158</p>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row d-flex flex-nowrap align-items-start">
                     <div class="col-1">
                         <h6><i class="fas fa-envelope"></i></h6>
                     </div>

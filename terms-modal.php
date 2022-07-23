@@ -50,3 +50,21 @@
 </div>
 </div>
 <!-- End Modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="pdf-view-modal" tabindex="-1" aria-labelledby="pdf-view-modalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="pdf-view-modalLabel">Catálogo completo de contenido</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <iframe src = "https://reckreastudios.com/proyectos/sicep/app/archive/812b4ba287f5ee0bc9d43bbf5bbe87fb/b0ee9929b13450097e07c491a457a26e/CREDENCIAL-20220304134840.pdf" style="width:100%; height:70Vh;"></iframe>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>

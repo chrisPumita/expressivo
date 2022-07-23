@@ -41,8 +41,8 @@
     </section>
     <section>
         <div class="container">
-            <div class="row pt-5">
-                <h4 class="text-center text-gray">TIPOS DE EVENTOS</h4>
+            <div class="row pt-5 mb-3">
+                <h4 class="text-center text-gray fw-bold mt-5">TIPOS DE EVENTOS</h4>
             </div>
             <div class="row mt-5 m-xl-5 mb-4 ">
                 <div class="col">
@@ -131,15 +131,11 @@
                                 <h6 class="text-center">COMPLEMENTE SU EVENTO CON</h6>
                                 <h1 class="fw-bold">Contenido artístico</h1>
                                 <img src="./assets/img/action.svg" alt=""><br>
-                                <a href="#" class=" text-secondary">Conozca más »</a>
+                                <a href="./contenido-artistico.php" class=" text-secondary fw-bold">Conozca más »</a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row mt-5 d-flex text-center justify-content-center align-items-center">
-                    <h1 class="text-center text-secondary"><strong>Sobre la sala teatral</strong></h1>
-                    <button type="button" class="btn btn-outline-secondary w-auto py-2 px-5 fw-bold">CONOZCA NUESTRO TEATRO</button>
             </div>
         </div>
     </section>

@@ -150,9 +150,24 @@ hr{
     color: var(--violet);
     width: 390px;
 }
+
+.page-footer a {
+    color: var(--text) !important;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff !important;
+    text-decoration: none;
+    background-color: var(--secondary);
+}
+
 @media (max-width:1200px ){
     .float-card {
         margin-left: 5rem !important;
+    }
+    .events-example{
+        font-size: .8rem !important;
+        margin-bottom: 1rem !important;
     }
 }
 
@@ -164,13 +179,16 @@ hr{
     .float-card {
         margin-left: 0rem !important;
     }
-
+    .events-example{
+        font-size: 1rem !important;
+        margin-bottom: 1rem !important;
+    }
 }
 
 
 @media (max-width: 767px) {
     .events-example{
-        margin-bottom: 2rem !important;
+        margin: 2rem !important;
         font-size: 2rem !important;
     }
     .tipos-card{
@@ -208,6 +226,12 @@ hr{
 }
 
 @media (max-width: 576px){
+
+    .events-example{
+        margin: 2rem !important;
+        font-size: 2rem !important;
+    }
+
     .float-card {
         top: -3rem!important;
         position: relative!important;
@@ -456,6 +480,24 @@ blockquote {
     transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
     border: 0px solid #E1E4E8 !important;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.edigital:hover h5{
+    color: var(--secondary) !important;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.ehibrido:hover h5{
+    color: var(--violet) !important;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.epresencial:hover h5{
+    color: var(--primary_ligth) !important;
     transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }

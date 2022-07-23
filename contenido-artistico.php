@@ -41,11 +41,11 @@
         </div><!-- End: Parallax Background -->
     </section>
     <section>
-        <div class="position-relative d-flex " style="background: url(./assets/img/img-cite.jpg) top center no-repeat;background-size: cover; height: 90vh; padding-bottom: 20vh;">
+        <div class="position-relative d-flex " style="background: url(./assets/img/img-cite.jpg) top center no-repeat;background-size: cover; height: 100vh; padding-bottom: 20vh;">
             <div class="position-absolute bottom-0" style=" width: 100%;">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,224L80,202.7C160,181,320,139,480,144C640,149,800,203,960,208C1120,213,1280,171,1360,149.3L1440,128L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
             </div>
-            <div class="container-fluid m-0 d-flex justify-content-center align-items-center ">
+            <div class="container-fluid m-0 d-flex ">
                 <div class="container">
                     <div class="row text-light">
                         <div class="col-0 col-sm-0 col-md-1 col-lg-2 col-xl-3 col-xxl-3"></div>
@@ -88,7 +88,7 @@
                             <div class="row">
                                 <p class="h-100 lh-sm mt-4">
                                     Consigue un impacto positivo en tus invitados. Que
-                                    los temas que quieras desarrollar alcancecn tus
+                                    los temas que quieras desarrollar alcancen tus
                                     metas y objetivos y complementa una experiencia
                                     que no olvidarán de la mano de Espressivo Events.
                                 </p>
@@ -112,7 +112,7 @@
     <section>
         <div class="container  py-5">
             <div class="row text-center text-gray">
-                <div class="col mt-5">
+                <div class="col my-5">
                     <h6>COMPLEMENTE SU EVENTO</h6>
                     <h2 class="fw-bold">Nuestro contenido más popular</h2>
                     <button class="btn btn-secondary btn-lg mt-3" data-bss-hover-animate="pulse" type="submit">CONTÁCTENOS</button>
@@ -121,7 +121,7 @@
             <div class="row mt-5">
                 <div class="col-0 col-sm-0 col-md-1 col-lg-2 col-xl-3 col-xxl-3"></div>
                 <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-6 col-xxl-6">
-                    <div class="row row-cols-4 row-cols-sm-4 row-cols-md-4 g-4 text-light">
+                    <div class="row row-cols-4 row-cols-sm-4 row-cols-md-4 g-4 text-light py-3">
                         <div class="col m-0 p-0">
                             <div data-bss-hover-animate="pulse" class="grafico d-flex align-items-end pb-3 g1">
                                 <div class="col">
@@ -160,7 +160,7 @@
         </div>
             <div class="row">
                 <div class="col pt-5 text-center">
-                    <a href="#" class="text-gray">Catálogo completo de contenido</a>
+                    <a href="#" class="text-gray" data-bs-toggle="modal" data-bs-target="#pdf-view-modal">Catálogo completo de contenido</a>
                 </div>
             </div>
     </section>

@@ -8,7 +8,17 @@
 <head>
     <title>Bienvenidos - Espressivo </title>
     <?php include_once "includes/header.php"?>
-
+    <style>
+        canvas {
+            display: block;
+            vertical-align: bottom;
+        }
+        /* Particle container. */
+        #particle-container {
+            position: absolute;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
 
@@ -38,14 +48,14 @@
                                                         Realice eventos <br>
                                                         y espectáculos <br>
                                                         <span class="text-secondary">memorables.</span></h1>
-                                                    <button class="btn btn-secondary btn-lg fs-6 fw-bold" data-bss-hover-animate="pulse" type="submit">COTICE SU EVENTO</button>
+                                                    <a href="./contacto.php" class="btn btn-secondary btn-lg fs-6 fw-bold" data-bss-hover-animate="pulse" type="submit">COTICE SU EVENTO</a>
                                                 </div><!-- End: Intro -->
                                             </div>
                                         </div><!-- End: Highlight Clean -->
                                     </div><!-- End: Slide -->
                                     <!-- Start: Slide -->
                                     <div class="swiper-slide"
-                                         style="background:  url(assets/img/banner2.jpg) center / cover no-repeat;">
+                                         style="background:  url(assets/img/banner-2.jpg) center / cover no-repeat;">
                                         <!-- Start: Highlight Clean -->
                                         <div class="text-center d-flex justify-content-center align-items-center highlight-clean"
                                              data-aos="fade"
@@ -54,18 +64,18 @@
                                                 <!-- Start: Intro -->
                                                 <div class="intro">
                                                     <h1 class="text-center text-light mb-3" style="font-weight: bold;">
-                                                        Realice eventos <br>
-                                                        y espectáculos <br>
-                                                        <span class="text-secondary">memorables.</span></h1>
-                                                    <button class="btn btn-secondary btn-lg" data-bss-hover-animate="pulse" type="submit"
-                                                            style="">COTICE SU EVENTO</button>
+                                                        <span class="text-secondary">Su evento es el protagonista</span>
+                                                        <br>
+                                                        en nuestro escenario.</h1>
+                                                    <a href="contacto.php" class="btn btn-secondary  btn-lg fs-6 fw-bold" data-bss-hover-animate="pulse" type="submit"
+                                                            style="">COTICE SU EVENTO</a>
                                                 </div><!-- End: Intro -->
                                             </div>
                                         </div><!-- End: Highlight Clean -->
                                     </div><!-- End: Slide -->
                                     <!-- Start: Slide -->
                                     <div class="swiper-slide"
-                                         style="background:  url(assets/img/banner1.jpg) center / cover no-repeat;">
+                                         style="background:  url(assets/img/banner-3.jpg) center / cover no-repeat;">
                                         <!-- Start: Highlight Clean -->
                                         <div class="text-center d-flex justify-content-center align-items-center highlight-clean"
                                              data-aos="fade"
@@ -74,11 +84,10 @@
                                                 <!-- Start: Intro -->
                                                 <div class="intro">
                                                     <h1 class="text-center text-light mb-3" style="font-weight: bold;">
-                                                        Realice eventos <br>
-                                                        y espectáculos <br>
-                                                        <span class="text-secondary">memorables.</span></h1>
-                                                    <button class="btn btn-secondary btn-lg" data-bss-hover-animate="pulse" type="submit"
-                                                            style="">COTICE SU EVENTO</button>
+                                                        Un espacio que <br>se adapta a
+                                                        <span class="text-secondary">todo.</span></h1>
+                                                    <a href="contacto.php" class="btn btn-secondary  btn-lg fs-6 fw-bold" data-bss-hover-animate="pulse" type="submit"
+                                                       style="">COTICE SU EVENTO</a>
                                                 </div><!-- End: Intro -->
                                             </div>
                                         </div><!-- End: Highlight Clean -->
@@ -122,14 +131,14 @@
                 <div class="row text-center">
                     <div class="col-0 col-sm-1 col-md-1 col-lg-3 col-xl-3 col-xxl-3"></div>
                     <div class="col-12 col-sm-10 col-md-10 col-lg-6 col-xl-6 col-xxl-6 text-gray">
-                        <img class="w-100" src="./assets/img/logo.svg" alt="Logos eventos">
+                        <img class="w-75" src="./assets/img/logo.svg" alt="Logos eventos">
                     </div>
                     <div class="col-0 col-sm-1 col-md-1 col-lg-3 col-xl-3 col-xxl-3"></div>
                 </div>
-                <div class="row text-center">
+                <div class="row text-center mb-5">
                     <div class="col-0 col-sm-1 col-md-1 col-lg-3 col-xl-3 col-xxl-3"></div>
                     <div class="col-12 col-sm-10 col-md-10 col-lg-6 col-xl-6 col-xxl-6 text-gray">
-                        <h5 class="lh-sm">EVENTOS IMPECABLES</h5>
+                        <h5 class="lh-sm my-5">EVENTOS IMPECABLES</h5>
                         <p class="mt-3 px-1 px-sm-2 lh-sm">
                             Con más de <strong>20 años de experiencia en producción escénica y de eventos</strong>, en
                             Teatro Espressivo le presentamos: <strong class="text-secondary">Espressivo Events</strong>. La solución todo en uno para
@@ -145,8 +154,9 @@
             <!-- Start: Parallax Background -->
             <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center" data-bss-parallax-bg="true"
                  style="background: url(./assets/img/parallax-home.jpg) center / cover;padding: 81px 1px;padding-top: 5em;padding-bottom: 5em;">
+                <div id="particle-container"></div>
                 <!-- Start: 1 Row 1 Column -->
-                <div class="container">
+                <div class="container" style="z-index: 99;">
                     <div class="row text-center text-light">
                         <div class="col-0 col-sm-1 col-md-1 col-lg-3 col-xl-3 col-xxl-3"></div>
                         <div class="col-12 col-sm-10 col-md-10 col-lg-6 col-xl-6 col-xxl-6">
@@ -156,44 +166,44 @@
                                 personal altamente capacitado para realizar actividades y eventos espectaculares de
                                 forma presencial, híbrida o completamente digital. Usted decide.
                             </p>
-                            <a href="#" class=" text-light text-decoration-underline">Conozca más » </a>
-                            <div class="row">
-                                <div class="row row-cols-1 row-cols-md-3 g-4">
-                                    <div class="col">
-                                        <div class="row position-relative">
-                                            <div class="position-absolute bottom-0">
-                                                <div class="text-center pb-2 pe-4 ps-4">
-                                                    <h5 class="text-light text-center events-example">Eventos digitales</h5>
-                                                </div>
+                            <a href="./alquiler.php" class=" text-light text-decoration-underline">Conozca más » </a>
+                            <div class="row row-cols-1 row-cols-md-3 g-4 my-5 mx-3 m-sm-0">
+                                <div class="col" data-bss-hover-animate="pulse">
+                                    <div class="row position-relative epresencial">
+                                        <div class="position-absolute bottom-0">
+                                            <div class="text-center pb-2 pe-4 ps-4 ">
+                                                <h5 class="text-light text-center fw-bold events-example">Eventos
+                                                    presenciales</h5>
                                             </div>
-                                            <img src="./assets/img/card1.svg" class="card-img-top" alt="...">
                                         </div>
+                                        <img src="./assets/img/card1.svg" class="card-img-top" alt="...">
                                     </div>
-                                    <div class="col">
-                                        <div class="row position-relative">
-                                            <div class="position-absolute bottom-0">
-                                                <div class="text-center pb-2 pe-4 ps-4">
-                                                    <h5 class="text-light text-center  events-example">Eventos digitales</h5>
-                                                </div>
+                                </div>
+                                <div class="col"  data-bss-hover-animate="pulse">
+                                    <div class="row position-relative ehibrido">
+                                        <div class="position-absolute bottom-0">
+                                            <div class="text-center pb-2 pe-4 ps-4">
+                                                <h5 class="text-light text-center fw-bold  events-example">Eventos
+                                                    híbridos</h5>
                                             </div>
-                                            <img src="./assets/img/card2.svg" class="card-img-top" alt="...">
                                         </div>
+                                        <img src="./assets/img/card2.svg" class="card-img-top" alt="...">
                                     </div>
-                                    <div class="col">
-                                        <div class="row position-relative">
-                                            <div class="position-absolute bottom-0">
-                                                <div class="text-center pb-2 pe-4 ps-4">
-                                                    <h5 class="text-light text-center  events-example">Eventos digitales</h5>
-                                                </div>
+                                </div>
+                                <div class="col"  data-bss-hover-animate="pulse">
+                                    <div class="row position-relative edigital">
+                                        <div class="position-absolute bottom-0">
+                                            <div class="text-center pb-2 pe-4 ps-4">
+                                                <h5 class="text-light text-center fw-bold  events-example">Eventos digitales</h5>
                                             </div>
-                                            <img src="./assets/img/card3.svg" class="card-img-top" alt="...">
                                         </div>
+                                        <img src="./assets/img/card3.svg" class="card-img-top" alt="...">
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col  mt-5">
-                                    <button class="btn btn-secondary btn-lg" data-bss-hover-animate="pulse" type="submit">REALICE SU EVENTO CON NOSOTROS</button>
+                                    <a href="./contacto.php" class="btn btn-secondary btn-lg" data-bss-hover-animate="pulse" type="submit">REALICE SU EVENTO CON NOSOTROS</a>
                                 </div>
                             </div>
                         </div>
@@ -236,7 +246,7 @@
                                         o institucionales para que su evento
                                         sea una <strong>experiencia inigualable</strong> .
                                     </p>
-                                    <a href="#" class=" text-violet">Conozca más »</a>
+                                    <a href="./alquiler.php" class=" text-violet">Conozca más »</a>
                                 </div>
                             </div>
                         </div>
@@ -326,13 +336,15 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col  mt-5">
-                                <button class="btn btn-secondary btn-lg" data-bss-hover-animate="pulse" type="submit">REALICE SU EVENTO CON NOSOTROS</button>
+                            <div class="col  mt-5 mb-5">
+                                <a href="./contacto.php" class="btn btn-secondary btn-lg" data-bss-hover-animate="pulse" type="submit">REALICE SU EVENTO CON NOSOTROS</a>
                             </div>
                         </div>
+                        <!--
                         <div class="row mt-5">
                             <a href="#" class=" text-secondary small">Descarga el documento con todas las ventajas técnicas</a>
                         </div>
+                        -->
                     </div>
                     <div class="col-0 col-sm-1 col-md-1 col-lg-3 col-xl-3 col-xxl-3"></div>
                 </div>
@@ -343,4 +355,7 @@
 <?php include_once "includes/footer.php"?>
 </body>
 <?php include_once "includes/js.php"?>
+<script src="./assets/js/particles.min.js"></script>
+<script src="./assets/js/my-particles.js"></script>
+
 </html>

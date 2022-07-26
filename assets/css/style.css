@@ -174,7 +174,7 @@ hr{
 
 @media (max-width:980px ){
     .up-wabe {
-        margin-top: -10rem !important;
+        margin-top: 0rem !important;
     }
     .float-card {
         margin-left: 0rem !important;
@@ -223,9 +223,14 @@ hr{
         width: 100%!important;
         height: 100%;
     }
+
 }
 
 @media (max-width: 576px){
+
+    #frm-news {
+        width: 100% !important;
+    }
 
     .events-example{
         margin: 2rem !important;

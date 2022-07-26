@@ -1,8 +1,4 @@
-<!-- ----- VERSION DEL DOCUMENTO ---------
-    VERSION 1.00.0 BUILD 27.06.22
-    @autor: ReCkrea StuDios & limonne
-    @website: reckreastudios.com
-    @webdev: ChrisRCGS & BarbaraB.-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

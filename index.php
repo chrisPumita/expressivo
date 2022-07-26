@@ -1,5 +1,5 @@
 <!-- ----- VERSION DEL DOCUMENTO ---------
-    VERSION 1.00.0 BUILD 27.06.22
+    VERSION 1.00.0 BUILD 25.07.22
     @autor: ReCkrea StuDios & limonne
     @website: reckreastudios.com
     @webdev: ChrisRCGS & BarbaraB.-->
@@ -154,7 +154,7 @@
             <!-- Start: Parallax Background -->
             <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center" data-bss-parallax-bg="true"
                  style="background: url(./assets/img/parallax-home.jpg) center / cover;padding: 81px 1px;padding-top: 5em;padding-bottom: 5em;">
-                <div id="particle-container"></div>
+                <div id="particle-container" style="z-index: -99;"></div>
                 <!-- Start: 1 Row 1 Column -->
                 <div class="container" style="z-index: 99;">
                     <div class="row text-center text-light">

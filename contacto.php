@@ -1,8 +1,3 @@
-<!-- ----- VERSION DEL DOCUMENTO ---------
-    VERSION 1.00.0 BUILD 27.06.22
-    @autor: ReCkrea StuDios & limonne
-    @website: reckreastudios.com
-    @webdev: ChrisRCGS & BarbaraB.-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -79,31 +74,36 @@
                                         <li>
                                             <label for="pais" class="form-label text-grey">Servicio de interés:</label>
                                             <div class="form-check">
-                                                <input class="form-input" class="form-check-input" type="checkbox" value="" id="option_1">
+                                                <input class="form-input" class="form-check-input" type="checkbox"
+                                                       value="Alquiler de sala teatral" id="option_1" name="option_1">
                                                 <label class="form-check-label" for="option_1">
                                                     Alquiler de sala teatral
                                                 </label>
                                             </div>
                                             <div class="form-check">
-                                                <input class="form-input" class="form-check-input" type="checkbox" value="" id="option_2">
+                                                <input class="form-input" class="form-check-input" type="checkbox"
+                                                       value="Espectáculos y contenido artístico" id="option_2" name="option_2">
                                                 <label class="form-check-label" for="option_2">
                                                     Espectáculos y contenido artístico
                                                 </label>
                                             </div>
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id="option_3">
+                                                <input class="form-check-input" type="checkbox"
+                                                       value="Sala VIP para reuniones" id="option_3" name="option_3">
                                                 <label class="form-check-label" for="option_3">
                                                     Sala VIP para reuniones
                                                 </label>
                                             </div>
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id="option_4">
+                                                <input class="form-check-input" type="checkbox"
+                                                       value="Servicios de alimentación" id="option_4" name="option_4">
                                                 <label class="form-check-label" for="option_4">
                                                     Servicios de alimentación
                                                 </label>
                                             </div>
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id="option_5">
+                                                <input class="form-check-input" type="checkbox"
+                                                       value="Otro" id="option_5" name="option_5">
                                                 <label class="form-check-label" for="option_5">
                                                     Otro
                                                 </label>
@@ -113,7 +113,7 @@
                                             <textarea name="comentario" id="comentario"  placeholder="Comentarios (opcional)"></textarea>
                                         </li>
                                         <li>
-                                            <input class="tems" type="checkbox" id="terms" required>
+                                            <input class="tems" type="checkbox" id="terms" name="terms" required>
                                             <label for="terms" class="form-label text-grey">He leído y acepto
                                                 <a class="text-link" href=""  data-bs-toggle="modal" data-bs-target="#modal-terms">términos y condiciones.</a>
                                             </label>
@@ -131,6 +131,7 @@
                                         </li>
                                     </ul>
                                 </form>
+                                <div id="resp"></div>
                                 <span id="actionSend" ></span>
                             </div>
                         </div>
@@ -191,4 +192,5 @@
 
 </script>
 <?php include_once "includes/js.php"?>
+
 </html>

@@ -18,8 +18,11 @@
                 <div class="row mt-3">
                     <div class="col d-flex align-content-center justify-content-center">
                         <div class="input-group mb-3 send-email">
-                            <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="button-addon2">
-                            <button class="btn  gb-green" type="button" id="button-addon2">Registrarse</button>
+                            <form class="d-flex" id="frm-news">
+                                <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="button-addon2"
+                                id="btn-news" name="btn-news" required>
+                                <button class="btn  gb-green" type="submit" id="button-addon2">Registrarse</button>
+                            </form>
                         </div>
                     </div>
                 </div>

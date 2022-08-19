@@ -136,7 +136,7 @@
                             </div>
                         </div>
                     </div>
-                    <div  class="col-12 col-md-6 p-5">
+                    <div  class="col-12 col-md-6 p-xl-5">
                         <p class="text-texto py-3 m-sm-5 text-gray"">
                         También puede contactarnos directamente
                         en nuestros canales adicionales.
@@ -169,6 +169,10 @@
                                 ventas@espressivo.cr
                                 </p>
                             </div>
+                        </div>
+                        <div class="col m-auto text-center py-sm-5">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.2754641275737!2d-84.01895371661924!3d9.911000373611163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e3e993161bcf%3A0x7081ff6503ffba9a!2sTeatro%20Espressivo!5e0!3m2!1ses-419!2smx!4v1660501490002!5m2!1ses-419!2smx"
+                                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
                 </div>

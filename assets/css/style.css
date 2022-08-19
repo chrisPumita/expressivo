@@ -43,6 +43,7 @@
 .bg-greyligth{background-color: var(--greyligth) !important;}
 .bg-secondary{background-color: var(--secondary) !important;}
 
+.bg-orange{background-color: var(--orange)!important;}
 
 
 .bg-blue{background-color: var(--primary_ligth) !important;}
@@ -183,6 +184,12 @@ hr{
         font-size: 1rem !important;
         margin-bottom: 1rem !important;
     }
+
+    .alimento{
+        top: 0rem !important;
+        left: 0rem !important;
+        width: 100% !important;
+    }
 }
 
 
@@ -222,6 +229,12 @@ hr{
         color: #4c4c4c!important;
         width: 100%!important;
         height: 100%;
+    }
+
+    .alimento{
+        top: 2rem !important;
+        left: 0rem !important;
+        width: 100% !important;
     }
 
 }
@@ -505,4 +518,11 @@ blockquote {
     color: var(--primary_ligth) !important;
     transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+}
+
+.alimento{
+    border-radius: 3rem !important;
+    top: 2rem;
+    left: -5rem;
+    width: 35rem;
 }

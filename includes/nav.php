@@ -6,22 +6,13 @@
                     <a href="./"><img src="assets/img/logo.svg" style="width: 250px;" alt="Logo COMSA" loading="lazy"></a>
                     <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navcol-1">
-                        <ul class="navbar-nav ms-5 aos-init aos-animate" data-bss-disabled-mobile="true" data-aos="fade">
-                            <li class="nav-item dropdown">
-                                <a class="dropdown-toggle nav-link"  data-bss-hover-animate="pulse" aria-expanded="false" data-bs-toggle="dropdown" href="#">SERVICIOS</a>
-                                <div class="dropdown-menu me-3">
-                                    <a class="dropdown-item mt-1 px-5 text-gray" href="./alquiler.php" >Alquiler de sala teatral</a>
-                                    <a class="dropdown-item mt-1 px-5 text-gray" href="./contenido-artistico.php" >Contenido artístico</a>
-                                    <a class="dropdown-item mt-1 px-5 text-gray" href="./sala-vip.php" >Sala VIP para reuniones</a>
-                                </div>
-                            </li>
-                            <!--
-
-                            <li class="nav-item" ><a class="nav-link" data-bss-hover-animate="pulse" href="#" >PORTAFOLIO</a></li>
-                            <li class="nav-item" data-bss-hover-animate="pulse"><a class="nav-link" href="#" >MAPA</a></li>
-                            -->
+                        <ul class="navbar-nav ms-5 aos-init aos-animate d-flex align-items-sm-start text-start text-md-center" data-bss-disabled-mobile="true" data-aos="fade">
+                            <li class="nav-item" data-bss-hover-animate="pulse"><a class="nav-link" href="./alquiler.php" >ALQUILER DE TEATRO</a></li>
+                            <li class="nav-item" data-bss-hover-animate="pulse"><a class="nav-link" href="./contenido-artistico.php" >CONTENIDO ARTISTICO</a></li>
+                            <li class="nav-item" data-bss-hover-animate="pulse"><a class="nav-link" href="./sala-vip.php" >SALA VIP</a></li>
+                            <li class="nav-item" data-bss-hover-animate="pulse"><a class="nav-link" href="./alimentacion.php" >ALIMENTACIÓN</a></li>
                         </ul>
-                        <span class="navbar-text w-100 d-flex justify-content-sm-start justify-content-md-end">
+                        <span class="navbar-text d-flex justify-content-sm-start justify-content-md-start justify-content-xl-end">
                             <div class="border-start ps-md-5 ps-3">
                                 <a href="./contacto.php" class="btn btn-primary btn-lg text-light small fw-bold" data-bss-hover-animate="pulse" type="submit">COTICE SU EVENTO</a>
                             </div>

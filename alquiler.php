@@ -25,7 +25,7 @@
                         </p>
                         <div class="row">
                             <div class="col  mt-5">
-                                <button class="btn btn-secondary btn-lg" data-bss-hover-animate="pulse" type="submit">CONTÁCTENOS</button>
+                                <a href="./contacto.php" class="btn btn-secondary btn-lg" data-bss-hover-animate="pulse" type="submit">CONTÁCTENOS</a>
                             </div>
                         </div>
                     </div>
@@ -62,7 +62,7 @@
                                         <li>Muestras de academias</li>
                                         <li>Graduaciones</li>
                                     </ul>
-                                    <button type="button" class="btn btn-outline-light ms-5">CONTÁCTENOS</button>
+                                    <a href="./contacto.php" type="button" class="btn btn-outline-light ms-5">CONTÁCTENOS</a>
                                 </div>
                             </div>
                         </div>
@@ -88,7 +88,7 @@
                                         <li>Eventos corporativos</li>
                                         <li>Reuniones corporativas</li>
                                     </ul>
-                                    <button type="button" class="btn btn-outline-light ms-5">CONTÁCTENOS</button>
+                                    <a href="./contacto.php" type="button" class="btn btn-outline-light ms-5">CONTÁCTENOS</a>
                                 </div>
                             </div>
                         </div>
@@ -114,7 +114,7 @@
                                         <li>Celebraciones de Aniversario o fin de año</li>
                                         <li>Grabaciones</li>
                                     </ul>
-                                    <button type="button" class="btn btn-outline-light ms-5">CONTÁCTENOS</button>
+                                    <a href="./contacto.php" type="button" class="btn btn-outline-light ms-5">CONTÁCTENOS</a>
                                 </div>
                             </div>
                         </div>

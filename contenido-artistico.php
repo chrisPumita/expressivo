@@ -27,7 +27,7 @@
                         </p>
                         <div class="row">
                             <div class="col  mt-5">
-                                <button class="btn btn-secondary btn-lg" data-bss-hover-animate="pulse" type="submit">CONTÁCTENOS</button>
+                                <a href="./contacto.php" class="btn btn-secondary btn-lg" data-bss-hover-animate="pulse" type="submit">CONTÁCTENOS</a>
                             </div>
                         </div>
                     </div>
@@ -51,17 +51,18 @@
                                     “
                                 </p>
                                 <p class="quote-text lh-sm">
-                                    Disfruté cada momento
-                                    de la <span class="text-secondary">experiencia Espressivo</span>,
-                                    y mis colaboradores quedaron
-                                    muy contentos. Sin duda
-                                    repetiremos.
+                                    Teatro Espressivo nos ha dado un <span class="text-secondary">servicio excelente</span>,
+                                    desde que
+                                    empezamos a contratarlos para las
+                                    actividades de la empresa. Las obras
+                                    de teatro han sido espectaculares
+                                    ¡siempre la pasamos increíble! "
                                 </p>
                                 <hr class="cite-divisor">
                                 <div class="autor">
                                     <autor class="blog-post-bottom pull-left text-gray-light">
-                                        <strong>BENITO BODOQUE,</strong>
-                                        <br><span>CIO • Agencia Grandilocuente</span>
+                                        <span class="fw-bold">ADRIANA CALDERÓN,</span>
+                                        <br><span class="lh-sm">CR HR Manager, Growth Acceleration Partners</span>
                                     </autor>
                                 </div>
                             </blockquote>
@@ -83,18 +84,65 @@
                             </div>
                             <div class="row">
                                 <p class="h-100 lh-sm mt-4">
-                                    Consigue un impacto positivo en tus invitados. Que
-                                    los temas que quieras desarrollar alcancen tus
-                                    metas y objetivos y complementa una experiencia
-                                    que no olvidarán de la mano de Espressivo Events.
+                                    Impacte positivamente a sus invitados,
+                                    colaboradores, estudiantes, clientes y demás
+                                    espectadores con nuestras experiencias únicas y
+                                    de gran calidad. Contamos con un amplio catálogo
+                                    artístico para grandes y chicos, además ofrecemos
+                                    espectacúlos e intervenciones personalizadas para
+                                    que sus eventos sean memorables.
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 order-1 order-md-2 position-relative d-flex justify-content-center justify-content-md-start ">
-                    <div class="imgBx contenedorIMG imagine">
-                        <img class="imagenAjustada img" height="470" src="./assets/img/payaso_3.jpg" >
+                    <div class="imgBx contenedorIMG imagine" style="max-width: 428px;">
+                        <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
+                            <!--
+                             <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 3"></button>
+                            </div>
+                            -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="5000">
+                                    <img src="./assets/img/cont-ban-1.png" class="imagenAjustada img" height="470" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <p class="small bg-dark p-2 text-light bg-opacity-50">Espectáculos para toda la familia: Diario de una Danta</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="5000">
+                                    <img src="./assets/img/cont-ban-2.png" class="imagenAjustada img" height="470" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <p class="small bg-dark p-2 text-light bg-opacity-50">Espectáculos navideños: Un Cuento de Navidad</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item"  data-bs-interval="5000">
+                                    <img src="./assets/img/cont-ban-3.png" class="imagenAjustada img" height="470" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <p class="small bg-dark p-2 text-light bg-opacity-50">Espectáculos de comedia: Terapia</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item"  data-bs-interval="5000">
+                                    <img src="./assets/img/cont-ban-4.png" class="imagenAjustada img" height="470" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <p class="small bg-dark p-2 text-light bg-opacity-50">Espectáculos personalizados: Show de Aniversario</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -111,7 +159,7 @@
                 <div class="col my-5">
                     <h6>COMPLEMENTE SU EVENTO</h6>
                     <h2 class="fw-bold">Nuestro contenido más popular</h2>
-                    <button class="btn btn-secondary btn-lg mt-3" data-bss-hover-animate="pulse" type="submit">CONTÁCTENOS</button>
+                    <a href="./contacto.php" class="btn btn-secondary btn-lg mt-3" data-bss-hover-animate="pulse" type="submit">CONTÁCTENOS</a>
                 </div>
             </div>
             <div class="row mt-5">
@@ -154,11 +202,6 @@
                 </div>
                 <div class="col-0 col-sm-0 col-md-1 col-lg-2 col-xl-3 col-xxl-3"></div>
         </div>
-            <div class="row">
-                <div class="col pt-5 text-center">
-                    <a href="#" class="text-gray" data-bs-toggle="modal" data-bs-target="#pdf-view-modal">Catálogo completo de contenido</a>
-                </div>
-            </div>
     </section>
 </main>
 <?php include_once "includes/footer.php"?>

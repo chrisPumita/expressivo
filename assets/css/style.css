@@ -296,6 +296,10 @@ hr{
     .you-imagine{
         width: 100% !important;
     }
+
+    .main-columna {
+        column-count:1 !important;
+    }
 }
 
 
@@ -525,4 +529,25 @@ blockquote {
     top: 2rem;
     left: -5rem;
     width: 35rem;
+}
+
+.main-columna {
+    column-count:2;
+}
+
+.tipo-benn-2{
+    border: 0px solid #E1E4E8 !important;
+    border-radius: 3rem;
+}
+.tipo-benn-2:hover{
+    border: 0px solid #E1E4E8 !important;
+    box-shadow: 3px 3px 10px 5px rgb(255, 255, 255),
+    -3px -3px 10px 5px rgb(255, 255, 255);
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    opacity: .9;
+}
+
+.tipo-benn-2 img {
+    width: 60px !important;
 }

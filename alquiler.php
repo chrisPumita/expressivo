@@ -3,6 +3,10 @@
 <head>
     <title>Bienvenidos - Espressivo </title>
     <?php include_once "includes/header.php"?>
+    <script src="./assets/js/photoswipe.umd.min.js"></script>
+    <script src="./assets/js/photoswipe-lightbox.umd.min.js"></script>
+
+    <link rel="stylesheet" href="./assets/css/photoswipe.css">
 </head>
 <body>
 
@@ -35,6 +39,105 @@
         </div><!-- End: Parallax Background -->
     </section>
     <section>
+        <div class="container-fluid bg-light">
+            <div class="container my-5">
+                <div class="row">
+                    <div class="col-0 col-sm-1 col-md-1 col-lg-3 col-xl-3 col-xxl-3"></div>
+                    <div class="col-12 col-sm-10 col-md-10 col-lg-6 col-xl-6 col-xxl-6 text-gray">
+                        <div class="galeria">
+                            <div class="row row-cols-1 row-cols-md-3 g-4">
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <a href="./assets/img/galery/01-min.jpg" data-pswp-width="1000" data-pswp-height="665">
+                                            <img src="./assets/img/galery/01-min.jpg" width="100%" alt=""/></a>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <a href="./assets/img/galery/02-min.jpg" data-pswp-width="1000" data-pswp-height="665">
+                                            <img src="./assets/img/galery/02-min.jpg" width="100%" alt=""/></a>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <a href="./assets/img/galery/03-min.jpg"data-pswp-width="1000" data-pswp-height="665">
+                                            <img src="./assets/img/galery/03-min.jpg" width="100%" alt=""/></a>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <a href="./assets/img/galery/04-min.jpg" data-pswp-width="1000" data-pswp-height="665">
+                                            <img src="./assets/img/galery/04-min.jpg" width="100%" alt=""/></a>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <a href="./assets/img/galery/05-min.jpg" data-pswp-width="1000" data-pswp-height="665">
+                                            <img src="./assets/img/galery/05-min.jpg" width="100%" alt=""/></a>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <a href="./assets/img/galery/06-min.jpg" data-pswp-width="1000" data-pswp-height="665">
+                                            <img src="./assets/img/galery/06-min.jpg" width="100%" alt=""/></a>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <a href="./assets/img/galery/07-min.jpg" data-pswp-width="1000" data-pswp-height="665">
+                                            <img src="./assets/img/galery/07-min.jpg" width="100%" alt=""/></a>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <a href="./assets/img/galery/08-min.jpg" data-pswp-width="1000" data-pswp-height="665">
+                                            <img src="./assets/img/galery/08-min.jpg" width="100%" alt=""/></a>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <a href="./assets/img/galery/09-min.jpg" data-pswp-width="1000" data-pswp-height="665">
+                                            <img src="./assets/img/galery/09-min.jpg" width="100%" alt=""/></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-grey">
+        <div class="container py-5">
+            <div class="row text-left mb-5">
+                <div class="col-0 col-sm-1 col-md-1 col-lg-3 col-xl-3 col-xxl-3"></div>
+                <div class="col-12 col-sm-10 col-md-10 col-lg-6 col-xl-6 col-xxl-6 text-gray">
+                    <h5 class="lh-sm my-5 fw-bold text-center">CARACTERÍSTICAS DEL ESPACIO</h5>
+                    <p class="mt-3 px-1 px-sm-2 lh-sm">
+                        Nuestro espacio completamente equipado para un desarrollo de su evento sin límites técnicos.
+                        Algunas de nuestras principales características y beneficios del espacio teatral son:
+                    </p>
+                    <div class="main-columna">
+                        <ul>
+                            <li>Plataforma de venta de boletos</li>
+                            <li>Conexión de internet de alta velocidad por fibra óptica.</li>
+                            <li>Equipo de luces y sonido profesional</li>
+                            <li>Camerinos con ducha, sala de espera en trasescena y camerinos auxiliares.</li>
+                            <li>Celebraciones corporativas</li>
+                            <li>Pantalla de 5×7m </li>
+                            <li>Proyector HD 8.500 lúmenes</li>
+                            <li>Escenario de 8x6m</li>
+                            <li>Zona espeical de carga y descarga</li>
+                            <li>Sistema de tramoya</li>
+                            <li>Aire acondicionado</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="blog-light">
         <div class="container">
             <div class="row pt-5 mb-3">
                 <h4 class="text-center text-gray fw-bold mt-5">TIPOS DE EVENTOS</h4>
@@ -138,4 +241,13 @@
 <?php include_once "includes/footer.php"?>
 </body>
 <?php include_once "includes/js.php"?>
+<script type="text/javascript">
+    var lightbox = new PhotoSwipeLightbox({
+        gallery: '.galeria',
+        children: 'a',
+        // dynamic import is not supported in UMD version
+        pswpModule: PhotoSwipe
+    });
+    lightbox.init();
+</script>
 </html>

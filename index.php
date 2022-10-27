@@ -154,7 +154,7 @@
             <!-- Start: Parallax Background -->
             <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center" data-bss-parallax-bg="true"
                  style="background: url(./assets/img/parallax-home.jpg) center / cover;padding: 81px 1px;padding-top: 5em;padding-bottom: 5em;">
-                <div id="particle-container" style="z-index: -99;"></div>
+                <div id="particle-container"></div>
                 <!-- Start: 1 Row 1 Column -->
                 <div class="container" style="z-index: 99;">
                     <div class="row text-center text-light">
@@ -277,7 +277,7 @@
                             </div>
                             <div class="col">
                                 <div class="card text-white facilidad">
-                                    <img src="./assets/img/bg-pink.svg" class="card-img easy-card" alt="...">
+                                    <a href="https://www.espressivo.cr/events/alimentacion.php"><img src="./assets/img/bg-pink.svg" class="card-img easy-card" alt="..."></a>
                                     <div class="card-img-overlay d-flex text-center justify-content-center align-items-center">
                                         <h6 class="text-light fs-5 lh-sm">
                                             Opciones de  alimentación  y snacks

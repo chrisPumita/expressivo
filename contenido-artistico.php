@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Contenido artístico - Expreesivo </title>
+    <title>Contenido artístico - Espressivo </title>
     <?php include_once "includes/header.php"?>
 </head>
 <body>
@@ -19,15 +19,14 @@
                 <div class="row text-center text-light">
                     <div class="col-1  col-sm-1  col-md-1  col-lg-2"></div>
                     <div class="col-10 col-sm-10 col-md-10 col-lg-8">
-                        <h5 class="fw-bold">ALQUILER DE CONTENIDO ARTÍSTICO</h5>
+                        <h5 class="fw-bold">CONTENIDO ARTÍSTICO</h5>
                         <p class="mt-3 px-1 px-sm-5 lh-sm"">
-                            Ponemos a su disposición nuestros espectáculos para complementar la experiencia
-                            de su evento virtual o presencial. Consiga un impacto positivo en sus invitados
-                            ofreciéndoles una experiencia única y de gran calidad.
+                            Nuestra sala de teatro es el escenario ideal para sus eventos presenciales, grabaciones o transmisiones en vivo.
+                        Impacte a sus invitados con una experiencia única y de gran calidad en un espacio totalmente equipado y con capacidad para 2500 personas.
                         </p>
                         <div class="row">
                             <div class="col  mt-5">
-                                <a href="./contacto.php" class="btn btn-secondary btn-lg" data-bss-hover-animate="pulse" type="submit">CONTÁCTENOS</a>
+                                <a href="./contacto.php" class="btn btn-secondary btn-lg" data-bss-hover-animate="pulse" type="submit">SOLICITE SU COTIZACIÓN</a>
                             </div>
                         </div>
                     </div>
@@ -80,18 +79,19 @@
                     <div class="p-2 mt-5 ms-5">
                         <div class="row d-block p-1 p-sm-3 p-xl-5 text-gray">
                             <div class="row">
-                                <h6><strong>Obras y shows memorables</strong></h6>
+                                <h6 style="z-index: 99;"><strong>OBRAS Y SHOWS MEMORABLES</strong></h6>
                             </div>
                             <div class="row">
                                 <p class="h-100 lh-sm mt-4">
-                                    Impacte positivamente a sus invitados,
-                                    colaboradores, estudiantes, clientes y demás
-                                    espectadores con nuestras experiencias únicas y
-                                    de gran calidad. Contamos con un amplio catálogo
+                                    Contamos con un amplio catálogo
                                     artístico para grandes y chicos, además ofrecemos
                                     espectacúlos e intervenciones personalizadas para
                                     que sus eventos sean memorables.
                                 </p>
+                                <div class="col">
+                                    <a href="./contacto.php" class="btn btn-secondary btn-lg mt-3" data-bss-hover-animate="pulse" type="submit">SOLICITE EL CATÁLOGO COMPLETO</a>
+                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -109,27 +109,51 @@
                             -->
                             <div class="carousel-inner">
                                 <div class="carousel-item active" data-bs-interval="5000">
-                                    <img src="./assets/img/cont-ban-1.png" class="imagenAjustada img" height="470" class="d-block w-100" alt="...">
+                                    <img src="./assets/img/carroucel-artistico/cont-ban-1-min.jpg" class="imagenAjustada img" height="470" class="d-block w-100" alt="...">
                                     <div class="carousel-caption d-none d-md-block">
                                         <p class="small bg-dark p-2 text-light bg-opacity-50">Espectáculos para toda la familia: Diario de una Danta</p>
                                     </div>
                                 </div>
                                 <div class="carousel-item" data-bs-interval="5000">
-                                    <img src="./assets/img/cont-ban-2.png" class="imagenAjustada img" height="470" class="d-block w-100" alt="...">
+                                    <img src="./assets/img/carroucel-artistico/cont-ban-2-min.jpg" class="imagenAjustada img" height="470" class="d-block w-100" alt="...">
                                     <div class="carousel-caption d-none d-md-block">
                                         <p class="small bg-dark p-2 text-light bg-opacity-50">Espectáculos navideños: Un Cuento de Navidad</p>
                                     </div>
                                 </div>
                                 <div class="carousel-item"  data-bs-interval="5000">
-                                    <img src="./assets/img/cont-ban-3.png" class="imagenAjustada img" height="470" class="d-block w-100" alt="...">
+                                    <img src="./assets/img/carroucel-artistico/cont-ban-3-min.jpg" class="imagenAjustada img" height="470" class="d-block w-100" alt="...">
                                     <div class="carousel-caption d-none d-md-block">
                                         <p class="small bg-dark p-2 text-light bg-opacity-50">Espectáculos de comedia: Terapia</p>
                                     </div>
                                 </div>
                                 <div class="carousel-item"  data-bs-interval="5000">
-                                    <img src="./assets/img/cont-ban-4.png" class="imagenAjustada img" height="470" class="d-block w-100" alt="...">
+                                    <img src="./assets/img/carroucel-artistico/cont-ban-4-min.jpg" class="imagenAjustada img" height="470" class="d-block w-100" alt="...">
                                     <div class="carousel-caption d-none d-md-block">
                                         <p class="small bg-dark p-2 text-light bg-opacity-50">Espectáculos personalizados: Show de Aniversario</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item"  data-bs-interval="5000">
+                                    <img src="./assets/img/carroucel-artistico/cont-ban-5-min.jpg" class="imagenAjustada img" height="470" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <p class="small bg-dark p-2 text-light bg-opacity-50">Espectáculos personalizados: Show de Aniversario</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item"  data-bs-interval="5000">
+                                    <img src="./assets/img/carroucel-artistico/cont-ban-6-min.jpg" class="imagenAjustada img" height="470" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <p class="small bg-dark p-2 text-light bg-opacity-50">Espectáculos infantiles: Shhh...El miedo se durmió</p>
+                                    </div>
+                                </div>
+                                 <div class="carousel-item"  data-bs-interval="5000">
+                                    <img src="./assets/img/carroucel-artistico/cont-ban-7-min.jpg" class="imagenAjustada img" height="470" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <p class="small bg-dark p-2 text-light bg-opacity-50">Espectáculos infantiles: Y ahora, ¿a qué jugamos?</p>
+                                    </div>
+                                 </div>
+                                <div class="carousel-item"  data-bs-interval="5000">
+                                    <img src="./assets/img/carroucel-artistico/cont-ban-8-min.jpg" class="imagenAjustada img" height="470" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <p class="small bg-dark p-2 text-light bg-opacity-50">Espectáculos para toda la familia: "Las Machas"</p>
                                     </div>
                                 </div>
                             </div>
@@ -157,9 +181,7 @@
         <div class="container  py-5">
             <div class="row text-center text-gray">
                 <div class="col my-5">
-                    <h6>COMPLEMENTE SU EVENTO</h6>
                     <h2 class="fw-bold">Nuestro contenido más popular</h2>
-                    <a href="./contacto.php" class="btn btn-secondary btn-lg mt-3" data-bss-hover-animate="pulse" type="submit">CONTÁCTENOS</a>
                 </div>
             </div>
             <div class="row mt-5">
@@ -200,7 +222,26 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-0 col-sm-0 col-md-1 col-lg-2 col-xl-3 col-xxl-3"></div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row" >
+                <div class="col">
+                    <div class="card m-2 mt-3 container">
+                        <div class="row g-0 text-gray tipo-benn tipo-benn-2 py-5  d-flex text-center justify-content-center align-items-center" style="background: url(./assets/img/fondo-alimentación-min.png) center center no-repeat;background-size: cover;" >
+                            <div class="col">
+                                <img src="./assets/img/icon-plato.svg" width="60" alt=""><br>
+                                <h6 class="text-center text-light mt-3">COMPLEMENTE SU EVENTO CON</h6>
+                                <h1 class="fw-bold text-light">Servicios de alimentación</h1>
+
+                                <a href="./alimentacion.php" class=" text-light fw-bold">Conozca más »</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 </main>

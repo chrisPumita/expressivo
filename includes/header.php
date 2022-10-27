@@ -26,3 +26,34 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,500;1,200&display=swap" rel="stylesheet">
+<style>
+    .btn-flotante {
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #ffffff;
+        border-radius: 5px;
+        letter-spacing: 2px;
+        background-color: var(--secondary);
+        padding: 18px 30px;
+        position: fixed;
+        bottom: 40px;
+        right: 40px;
+        transition: all 300ms ease 0ms;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        z-index: 99;
+    }
+    .btn-flotante:hover {
+        background-color: var(--primary);
+        box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+        transform: translateY(-7px);
+    }
+    @media only screen and (max-width: 600px) {
+        .btn-flotante {
+            font-size: 14px;
+            padding: 12px 20px;
+            bottom: 20px;
+            right: 20px;
+        }
+    }
+</style>

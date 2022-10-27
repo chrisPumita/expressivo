@@ -72,6 +72,12 @@
                                         <div class="carousel-item"  data-bs-interval="5000">
                                             <img src="./assets/img/alimento-3.jpg" class="imagenAjustada img" height="500" class="d-block w-100" alt="...">
                                         </div>
+                                        <div class="carousel-item"  data-bs-interval="5000">
+                                            <img src="./assets/img/alimento-3-min.jpg" class="imagenAjustada img" height="500" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item"  data-bs-interval="5000">
+                                            <img src="./assets/img/alimento-4-min.jpg" class="imagenAjustada img" height="500" class="d-block w-100" alt="...">
+                                        </div>
                                     </div>
                                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
                                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -103,7 +109,9 @@
                                     estación de coffee break, servicio buffet, menú
                                     para llevar, etc.
                                 </p>
-
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modaleMenu">
+                                    Ver Menu
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -120,10 +128,28 @@
                     <a href="./contacto.php" class="btn text-light bg-orange btn-lg px-5" data-bss-hover-animate="pulse" type="submit">CONTACTAR</a>
                 </div>
             </div>
-
         </div>
     </section>
 </main>
+
+<!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="modaleMenu" tabindex="-1" aria-labelledby="modaleMenuLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modaleMenuLabel">Menu</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <embed src="./menus/febrero2022.pdf" width="100%" height="675" type="application/pdf">
+            </div>
+        </div>
+    </div>
+</div>
+
 <?php include_once "includes/footer.php"?>
 </body>
 <?php include_once "includes/js.php"?>

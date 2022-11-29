@@ -3,9 +3,6 @@
 <head>
     <title>Bienvenidos - Espressivo </title>
     <?php include_once "includes/header.php"?>
-    <script src="./assets/js/photoswipe.umd.min.js"></script>
-    <script src="./assets/js/photoswipe-lightbox.umd.min.js"></script>
-
     <link rel="stylesheet" href="./assets/css/photoswipe.css">
 </head>
 <body>
@@ -241,13 +238,16 @@
 <?php include_once "includes/footer.php"?>
 </body>
 <?php include_once "includes/js.php"?>
+<script type="text/javascript" src="./assets/js/photoswipe-lightbox.umd.min.js"></script>
+<script type="text/javascript" src="./assets/js/photoswipe.umd.min.js"></script>
 <script type="text/javascript">
-    var lightbox = new PhotoSwipeLightbox({
+
+    const lightbox = new PhotoSwipeLightbox({
         gallery: '.galeria',
         children: 'a',
-        // dynamic import is not supported in UMD version
-        pswpModule: PhotoSwipe
+        pswpModule: () => import('https://unpkg.com/photoswipe'),
     });
+
     lightbox.init();
 </script>
 </html>

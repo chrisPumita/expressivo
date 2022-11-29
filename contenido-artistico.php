@@ -230,7 +230,8 @@
             <div class="row" >
                 <div class="col">
                     <div class="card m-2 mt-3 container">
-                        <div class="row g-0 text-gray tipo-benn tipo-benn-2 py-5  d-flex text-center justify-content-center align-items-center" style="background: url(./assets/img/fondo-alimentación-min.png) center center no-repeat;background-size: cover;" >
+                        <div class="row g-0 text-gray tipo-benn tipo-benn-2 py-5  d-flex text-center justify-content-center align-items-center"
+                             style="background: url(./assets/img/fondo-alimentacion-min.jpg) center center no-repeat;background-size: cover;" >
                             <div class="col">
                                 <img src="./assets/img/icon-plato.svg" width="60" alt=""><br>
                                 <h6 class="text-center text-light mt-3">COMPLEMENTE SU EVENTO CON</h6>

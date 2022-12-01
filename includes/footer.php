@@ -49,15 +49,17 @@
                     <div class="col-5">
                         <ul class="list-unstyled">
                             <li><a href="./">Home</a></li>
-                            <li><a href="./alquiler.php">Asesorias técnicas</a></li>
+                            <li><a href="./alquiler.php">Alquiler de Teatro</a></li>
                             <li><a href="./contenido-artistico.php">Contenido artístico</a></li>
                             <li><a href="./sala-vip.php">Sala VIP reuniones</a></li>
+                            <li><a href="./alimentacion.php">Alimentación</a></li>
+                            <li><a href="http://www.espressivo.cr/calendario">Calendario de actividades</a></li>
                         </ul>
                     </div>
                     <div class="col border-start border-dark border-2"></div>
                     <div class="col-5">
                         <ul class="list-unstyled">
-                            <li><a href="./alquiler.php">Portafolio</a></li>
+                            <li><a href="./alquiler.php">Galería de imágenes</a></li>
                             <li><a href="./contacto.php">Contacto</a></li>
                             <li><a href="#" data-bs-toggle="modal" data-bs-target="#modal-terms">Aviso de privacidad</a></li>
                             <li><a href="#" data-bs-toggle="modal" data-bs-target="#modal-terms-2">Términos y Condiciones</a></li>

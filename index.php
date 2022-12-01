@@ -339,6 +339,7 @@
                             <div class="col  mt-5 mb-5">
                                 <a href="./contacto.php" class="btn btn-secondary btn-lg" data-bss-hover-animate="pulse" type="submit">REALICE SU EVENTO CON NOSOTROS</a>
                             </div>
+                            <a href="./alquiler.php" class=" text-violet">Conozca más detalles»</a>
                         </div>
                         <!--
                         <div class="row mt-5">

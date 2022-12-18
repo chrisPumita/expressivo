@@ -10,6 +10,7 @@
                             <li class="nav-item" data-bss-hover-animate="pulse"><a class="nav-link" href="./alquiler.php" >ALQUILER DE TEATRO</a></li>
                             <li class="nav-item" data-bss-hover-animate="pulse"><a class="nav-link" href="./contenido-artistico.php" >CONTENIDO ARTISTICO</a></li>
                             <li class="nav-item" data-bss-hover-animate="pulse"><a class="nav-link" href="./sala-vip.php" >SALA VIP</a></li>
+                            <li class="nav-item" data-bss-hover-animate="pulse"><a class="nav-link" href="./talleres.php" >TALLERES</a></li>
                             <li class="nav-item" data-bss-hover-animate="pulse"><a class="nav-link" href="./alimentacion.php" >ALIMENTACIÓN</a></li>
                         </ul>
                         <span class="navbar-text d-flex justify-content-sm-start justify-content-md-start justify-content-xl-end">

@@ -239,6 +239,15 @@ hr{
 
 }
 
+@media only screen and (max-height: 800px) {
+    .top-header {
+        height: 100vh !important;
+    }
+    .up-wabe-2{
+        margin-top: 50px !important;
+    }
+}
+
 @media (max-width: 576px){
 
     #frm-news {
@@ -300,6 +309,7 @@ hr{
     .main-columna {
         column-count:1 !important;
     }
+
 }
 
 
@@ -550,4 +560,15 @@ blockquote {
 
 .tipo-benn-2 img {
     width: 60px !important;
+}
+
+.hover-taller:hover{
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+    border-radius: 2rem;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.nav-item{
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
 }

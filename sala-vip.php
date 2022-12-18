@@ -23,7 +23,7 @@
 <?php include_once "includes/nav.php"?>
 <main class="page landing-page">
     <section>
-        <div class="position-relative" style="background: url(./assets/img/bg-vip.jpg) top center no-repeat;
+        <div class="position-relative top-header" style="background: url(./assets/img/bg-vip.jpg) top center no-repeat;
         background-size: cover; height: 75vh;" >
             <div id="particle-container"></div>
             <div class="container-fluid">
@@ -74,17 +74,16 @@
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,224L80,202.7C160,181,320,139,480,144C640,149,800,203,960,208C1120,213,1280,171,1360,149.3L1440,128L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
             </div>
         </div>
-
     </section>
     <section>
         <div class="container-fluid position-relative pb-5 mt-5">
             <div class="container mb-5 mt-5">
                 <div class="row">
                     <div class="col d-block d-sm-block d-md-none"">
-                    <div class="card vip-specific">
-                        <img class="img-responsive shadow bg-body vip-specific" src="assets/img/vip-sala.jpg" alt="">
+                        <div class="card vip-specific">
+                            <img class="img-responsive shadow bg-body vip-specific" src="assets/img/vip-sala.jpg" alt="">
+                        </div>
                     </div>
-                </div>
                 </div>
                 <div class="row mt-5">
                     <div class="col-0 col-md-1"></div>

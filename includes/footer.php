@@ -37,7 +37,7 @@
                 <h5 class="text-green">ESPRESSIVO</h5>
                 <p>
                     El mejor lugar para vivir el arte
-                    en Costa Ricadonde también
+                    en Costa Rica, donde también
                     podrá degustar la mejor gastronomía
                     y realizar eventos en el
                     este de San José.
@@ -49,7 +49,7 @@
                     <div class="col-5">
                         <ul class="list-unstyled">
                             <li><a href="./">Home</a></li>
-                            <li><a href="./alquiler.php">Alquiler de Teatro</a></li>
+                            <li><a href="./alquiler.php">Alquiler de teatro</a></li>
                             <li><a href="./contenido-artistico.php">Contenido artístico</a></li>
                             <li><a href="./sala-vip.php">Sala VIP reuniones</a></li>
                             <li><a href="./alimentacion.php">Alimentación</a></li>
@@ -62,7 +62,7 @@
                             <li><a href="./alquiler.php">Galería de imágenes</a></li>
                             <li><a href="./contacto.php">Contacto</a></li>
                             <li><a href="#" data-bs-toggle="modal" data-bs-target="#modal-terms">Aviso de privacidad</a></li>
-                            <li><a href="#" data-bs-toggle="modal" data-bs-target="#modal-terms-2">Términos y Condiciones</a></li>
+                            <li><a href="#" data-bs-toggle="modal" data-bs-target="#modal-terms-2">Términos y condiciones</a></li>
                         </ul>
                     </div>
                 </div>
@@ -74,7 +74,7 @@
                         <i class="fas fa-map-marker-alt me-3"></i>
                     </div>
                     <div class="col-11">
-                        <p class="ms-2"><a href="https://goo.gl/maps/PpEHv2Zx1scJK2HG9" target="_blank">Momentum pinares, Teatro espressivo</a></p>
+                        <p class="ms-2"><a href="https://goo.gl/maps/PpEHv2Zx1scJK2HG9" target="_blank">Momentum Pinares, Teatro Espressivo</a></p>
                     </div>
                 </div>
                 <div class="row d-flex flex-nowrap align-items-start">
@@ -82,7 +82,7 @@
                         <h6><i class="fas fa-phone-alt"></i></h6>
                     </div>
                     <div class="col-11">
-                        <p class="ms-2">(+506) 6360 9158</p>
+                        <a href="https://api.whatsapp.com/send?phone=50663609158"><p class="ms-2">(+506) 2267 1818</p></a>
                     </div>
                 </div>
                 <div class="row d-flex flex-nowrap align-items-start">
@@ -90,7 +90,7 @@
                         <h6><i class="fas fa-envelope"></i></h6>
                     </div>
                     <div class="col-11">
-                        <p class="ms-2"> ventas@espressivo.cr</p>
+                        <a href="mailto:ventas@espressivo.cr"><p class="ms-2"> ventas@espressivo.cr</p></a>
                     </div>
                 </div>
             </div>
